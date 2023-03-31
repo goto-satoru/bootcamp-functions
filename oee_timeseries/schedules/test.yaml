@@ -1,3 +1,4 @@
+---
 - name: Run calculations every 10 minutes for last hour of data
   cron: "5-59/10 * * * *"
   data:
